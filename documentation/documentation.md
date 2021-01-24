@@ -6,6 +6,7 @@
 | ------ | ------------- | ------------------------ |
 | 1.0    | Rafael Postal | Criação do documento     |
 | 1.1    | Rafael Postal | Criação de versionamento |
+| 1.2    | Rafael Postal | Topico Documentação      |
 
 
 
@@ -25,6 +26,8 @@
 * JavaScript
 * CSS (não implementado na primeira entrega)
 * FireBase (Banco de Dados em Tempo Real)
+* Structurizr (Software para diagramação de arquitetura de software)
+* Typora (Criação de documentação de software)
 
 
 
@@ -44,7 +47,13 @@
 
 ​	O FireBase é um banco de dados em tempo real criado pela Google, este poderoso banco de dados possui versão *free*, que possibilita aos desenvolvedores criarem prototipos de projetos. Esta ferramenta é escalavel e segura, possui uma biblioteca completa chamada GoogleAnalytics que permite monitorar a performance do banco de dados em tempo real, possui ferramenta de geração de relatorio de erros Crashlytics e um Test Lab para realização de testes no app. O FireBase é um ferramenta web que dispensa instalações, você pode acessar o site e criar seu banco de dados neste link [FireBase][https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi2ldz_kLXuAhVryrMKHcUOAfwYABAAGgJxbg&ohost=www.google.com&cid=CAESQOD203WpCN7FhL56UZBWIBxmGXclIqcBd1mpV8oMk8UF4m88whsza21Wcob3fEAMAfIweqZ0E88psYcnH6azWxA&sig=AOD64_0Jg-oCC5czAQdsWnNW6PH0W3y-ZA&q&adurl&ved=2ahUKEwj7ktD_kLXuAhWIIrkGHWepDToQ0Qx6BAgbEAE]
 
+## Documentação
 
+### Structurizr
 
+​	Para a criação de diagramas de arquitetura de software no formato C4 Model, foi utilizado o software Structurizr. Um software completo especificamente desenvolvido para o formato C4 Model.
 
+### Typora
+
+​	Aplicação *free* multiplataforma que permite escrever documentação de software de forma organizada e ágil.
 
