@@ -1,0 +1,251 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id",
+				"idUnico"
+			],
+			[
+				"cam",
+				"campoEndereco"
+			],
+			[
+				"ca",
+				"campoEndereco"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"in",
+				"input\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/lessc/lessc.sublime-build",
+					""
+				],
+				[
+					"Packages/lessc/lessc.sublime-build",
+					"Non-Minified"
+				]
+			],
+			[
+				"Packages/lessc/lessc.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rafaelpostal/Desafio Bemol/GlobalChannel"
+	],
+	"file_history":
+	[
+		"/Users/rafaelpostal/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/rafaelpostal/tambacode.github.io/public/ad_registration_childrens.html",
+		"/Users/rafaelpostal/tambacode.github.io/public/js/db.js",
+		"/Users/rafaelpostal/tambacode.github.io/public/login.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/terms_of_service.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/privacy_policy.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/privacy_policy.html",
+		"/Users/rafaelpostal/tambacode.github.io/public/index.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/login.html",
+		"/Users/rafaelpostal/tambacode.github.io/public/ad_detail.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/imgs/Go_farm.jpg",
+		"/Users/rafaelpostal/tambacode.github.io/public/semanticUI/components/button.css",
+		"/Users/rafaelpostal/tambacode.github.io/public/js/ui.js",
+		"/Users/rafaelpostal/tambacode.github.io/public/user_edit.jade",
+		"/Users/rafaelpostal/node_modules/semantic-ui-button/README.md",
+		"/Users/rafaelpostal/tambacode.github.io/public/user_edit.html",
+		"/Users/rafaelpostal/tambacode.github.io/public/ad_registration.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/templates/metas.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/manifest.json",
+		"/Users/rafaelpostal/tambacode.github.io/public/ad_registration_childrens.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/css/sharedfarm.less",
+		"/Users/rafaelpostal/tambacode.github.io/public/templates/header.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/templates/head.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/ad_detail.html",
+		"/Users/rafaelpostal/tambacode.github.io/public/js/messages.js",
+		"/Users/rafaelpostal/tambacode.github.io/public/css/sharedfarm.css",
+		"/Users/rafaelpostal/tambacode.github.io/public/notfound.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/offline.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/templates/scripts.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/user_info.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/semanticUI/semantic.css",
+		"/Users/rafaelpostal/tambacode.github.io/public/templates/AnunciarAgora.jade",
+		"/Users/rafaelpostal/tambacode.github.io/public/semanticUI/semantic.min.js"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 265.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "GlobalChannel.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 855.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1401.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

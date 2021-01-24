@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+<script type="text/javascript" src="scripts/scripts.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBr576aTjUX5jfmWXD9N4jhnaz3baisKsA",
+    authDomain: "globalchannel-48305.firebaseapp.com",
+    projectId: "globalchannel-48305",
+    storageBucket: "globalchannel-48305.appspot.com",
+    messagingSenderId: "541753132550",
+    appId: "1:541753132550:web:fdaf40f09c5beb910e2587",
+    measurementId: "G-T43CMSMR0X"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  var database = firebase.database();
+</script>
+
+	
+
+	<!-- Cadastro dos Usuarios -->
+
+	<h1>Usuario</h1>
+	
+
+	<form method="get" action=".">
+		<label>Nome:
+		<input type="text" id="campoNome"></label><br />
+        <label>Cep:
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+               onblur="pesquisacep(this.value);" /></label><br />
+        <label>Rua:
+        <input name="rua" type="text" id="rua" size="60" /></label><br />
+        <label>Bairro:
+        <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+        <label>Cidade:
+        <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+        <label>Estado:
+        <input name="uf" type="text" id="uf" size="2" /></label><br />
+        <label>IBGE:
+        <input name="ibge" type="text" id="ibge" size="8" /></label><br />
+        
+      </form>
+      <button onclick="escreverDados()">Enviar</button>
+
+      <script>
+		function escreverDados(){
+			//Gerando um ID
+			var idUnico = Math.floor(Math.random() * 256);
+			const postKey = firebase.database().ref().child('posts').push().key;
+
+			firebase.database().ref('usuarios/' + postKey).set({
+				nome: document.getElementById("campoNome").value,
+				cep: document.getElementById("cep").value,
+				rua: document.getElementById("rua").value,
+				bairro: document.getElementById("bairro").value,
+				cidade: document.getElementById("cidade").value,
+				estado: document.getElementById("uf").value,
+				ibge: document.getElementById("ibge").value
+			});
+
+			limpa_formulario_cep();
+
+		}
+	</script>
+
+</body>
+</html>
