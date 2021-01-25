@@ -1,0 +1,19 @@
+Questões
+Responda sucintamente os itens a seguir em um .txt levando as perguntas e as respostas para o controle de versão da maneira que julgar mais apropriado:
+
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+A solução foi construida de forma a ser disponibilizada em Cloud, pois eu adotei o FireBase.
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa
+solução, responda qual ferramenta acreditas ser apropriada para o controle de
+tarefas da equipe, a ferramenta é ágil?
+Atualmente eu utilizo o Jira para controlar as tarefas das diversas equipes que trabalham comigo, como trabalho em varios projetos ao mesmo tempo, com times grandes e espalhados, essa ferramenta é ideal. Mas no contexto de 4 devs, acredito que seria mais interessante utilizar uma ferramenta mais simples como o Trello.
+
+3. Você se sente capaz de liderar esta equipe? Por quê?
+Atualmente eu já trabalho com times globais e times locais, não vejo problema algum em liderar times.
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria?
+Acredito que a prova esta equilibrada, por hora não tenho nenhuma melhoria em mente.
+
+5. Acha válido esse desafio para o processo que está participando?
+Sim, pois ele foca mais na solução de Eng de Software do que no desenvolvimento.
